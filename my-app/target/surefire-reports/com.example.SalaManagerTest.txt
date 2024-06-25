@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.SalaManagerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.example.SalaManagerTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.example.SalaManagerTest
+testAgregarSalaDuplicada  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at com.example.SalaManagerTest.testAgregarSalaDuplicada(SalaManagerTest.java:41)
+

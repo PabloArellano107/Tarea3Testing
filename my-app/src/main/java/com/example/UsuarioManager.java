@@ -61,6 +61,10 @@ public class UsuarioManager {
         }
     }
 
+    public List<Usuario> obtenerTodosLosUsuarios() {
+        return new ArrayList<>(usuarios); // Devuelve una copia de la lista de usuarios
+    }
+
     private void actualizarUsuario(Scanner scanner) {
         System.out.print("Ingrese el ID del usuario a actualizar: ");
         String id = scanner.nextLine();

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.ReservaManagerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in com.example.ReservaManagerTest
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in com.example.ReservaManagerTest
+testReservaSobreposicionUsuario  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at com.example.ReservaManagerTest.testReservaSobreposicionUsuario(ReservaManagerTest.java:80)
+

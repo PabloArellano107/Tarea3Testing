@@ -42,17 +42,30 @@ public class SalaManager {
     private void agregarSala(Scanner scanner) {
         System.out.print("Ingrese el código de la sala: ");
         String codigo = scanner.nextLine();
+    
+        // Verificar si ya existe una sala con el mismo código
+        for (Sala s : salas) {
+            if (s.getCodigo().equals(codigo)) {
+                System.out.println("Ya existe una sala con el código proporcionado: " + codigo);
+                return; // Regresar al menú de gestión de salas
+            }
+        }
+    
         System.out.print("Ingrese el nombre de la sala: ");
         String nombre = scanner.nextLine();
         System.out.print("Ingrese la ubicación de la sala: ");
         String ubicacion = scanner.nextLine();
         System.out.print("¿Está reservada la sala? (true/false): ");
         boolean reservada = scanner.nextBoolean();
-
+        scanner.nextLine(); // Limpiar el buffer después de leer boolean
+    
+        // Crear la sala y agregarla si no hay duplicados
         Sala sala = new Sala(codigo, nombre, ubicacion, reservada);
         agregarSala(sala);
         System.out.println("Sala agregada exitosamente.");
     }
+    
+    
 
     private void verSalas() {
         System.out.println("\n--- Lista de Salas ---");

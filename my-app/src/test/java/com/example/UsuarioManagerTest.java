@@ -26,6 +26,16 @@ public class UsuarioManagerTest {
         assertEquals("Admin", obtenido.getDescripcion());
     }
 
+
+    @Test
+    public void testObtenerTodosLosUsuarios() {
+        UsuarioManager manager = new UsuarioManager();
+        manager.agregarUsuario(new Usuario("1", "Juan", "IT", "Admin"));
+        manager.agregarUsuario(new Usuario("2", "María", "HR", "Manager"));
+
+        assertEquals(2, manager.obtenerTodosLosUsuarios().size());
+    }
+
     @Test
     public void testActualizarUsuario() {
         UsuarioManager manager = new UsuarioManager();
@@ -44,6 +54,9 @@ public class UsuarioManagerTest {
         manager.eliminarUsuario("1");
         assertNull(manager.obtenerUsuario("1"));
     }
+    
+
+    
 }
 
 

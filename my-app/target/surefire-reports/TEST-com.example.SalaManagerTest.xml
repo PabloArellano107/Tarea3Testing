@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.SalaManagerTest" time="0" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.SalaManagerTest" time="0" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\pabli\my-app\target\test-classes;C:\Users\pabli\my-app\target\classes;C:\Users\pabli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pabli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\pabli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\pabli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app\target\test-classes;C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app\target\classes;C:\Users\pabli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pabli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\pabli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\pabli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\pabli\AppData\Local\Temp\surefire13853973985822049788\surefirebooter3513876679264575761.jar C:\Users\pabli\AppData\Local\Temp\surefire13853973985822049788 2024-06-25T12-54-57_405-jvmRun1 surefire16866793789619712642tmp surefire_05034516549405111326tmp"/>
+    <property name="sun.java.command" value="C:\Users\pabli\AppData\Local\Temp\surefire4503024462286504289\surefirebooter9252428176893073088.jar C:\Users\pabli\AppData\Local\Temp\surefire4503024462286504289 2024-06-25T14-56-32_447-jvmRun1 surefire18177149144260293148tmp surefire_05189775493215938559tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\pabli\my-app\target\test-classes;C:\Users\pabli\my-app\target\classes;C:\Users\pabli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pabli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\pabli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\pabli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app\target\test-classes;C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app\target\classes;C:\Users\pabli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\pabli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\pabli\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\pabli\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pabli\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\pabli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\pabli"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\pabli\my-app"/>
+    <property name="basedir" value="C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pabli\AppData\Local\Temp\surefire13853973985822049788\surefirebooter3513876679264575761.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pabli\AppData\Local\Temp\surefire4503024462286504289\surefirebooter9252428176893073088.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\pabli\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.2"/>
-    <property name="user.dir" value="C:\Users\pabli\my-app"/>
+    <property name="user.dir" value="C:\Users\pabli\AppData\Local\GitHubDesktop\app-3.4.1\Tarea3Testing\my-app"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,7 +59,11 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="testAgregarSala" classname="com.example.SalaManagerTest" time="0"/>
-  <testcase name="testLeerSala" classname="com.example.SalaManagerTest" time="0"/>
   <testcase name="testActualizarSala" classname="com.example.SalaManagerTest" time="0"/>
+  <testcase name="testAgregarSalaDuplicada" classname="com.example.SalaManagerTest" time="0">
+    <failure message="Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at com.example.SalaManagerTest.testAgregarSalaDuplicada(SalaManagerTest.java:41)
+</failure>
+  </testcase>
   <testcase name="testEliminarSala" classname="com.example.SalaManagerTest" time="0"/>
 </testsuite>
