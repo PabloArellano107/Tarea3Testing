@@ -21,3 +21,18 @@
 - **UsuarioManagerTest:** Contiene pruebas para verificar las operaciones CRUD del `UsuarioManager`.
 - **SalaManagerTest:** Contiene pruebas para verificar las operaciones CRUD del `SalaManager`, incluyendo manejo de salas duplicadas.
 - **ReservaManagerTest:** Contiene pruebas para verificar las operaciones CRUD del `ReservaManager`, asegurando la correcta creación, actualización y eliminación de reservas.
+
+
+
+##Manual de Usuario
+
+-Se utilizo JUnit con Maven para realizar las pruebas
+
+-Para utilizar el programa normal tiene que estar ubicado en la carpeta src/main/java, abrir una terminal y ejecutar los siguientes comandos: 
+  -javac com/example/*.java
+  -java com.example.Main 
+
+Para realizar los test tiene que estar ubicado en la carpeta raiz del proyecto, abrir una terminal y ejecutar el comnado :
+  -mvn test
+
+##Reporte de pruebas unitarias
