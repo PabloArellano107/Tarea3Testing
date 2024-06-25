@@ -24,15 +24,15 @@
 
 
 
-##Manual de Usuario
+## Manual de Usuario
 
--Se utilizo JUnit con Maven para realizar las pruebas
+- Se utilizo JUnit con Maven para realizar las pruebas
 
--Para utilizar el programa normal tiene que estar ubicado en la carpeta src/main/java, abrir una terminal y ejecutar los siguientes comandos: 
-  -javac com/example/*.java
-  -java com.example.Main 
+- Para utilizar el programa normal tiene que estar ubicado en la carpeta src/main/java, abrir una terminal y ejecutar los siguientes comandos: 
+  - javac com/example/*.java
+  - java com.example.Main 
 
 Para realizar los test tiene que estar ubicado en la carpeta raiz del proyecto, abrir una terminal y ejecutar el comnado :
-  -mvn test
+  - mvn test
 
-##Reporte de pruebas unitarias
+## Reporte de pruebas unitarias
