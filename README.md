@@ -35,4 +35,61 @@
 Para realizar los test tiene que estar ubicado en la carpeta raiz del proyecto, abrir una terminal y ejecutar el comnado :
   - mvn test
 
-## Reporte de pruebas unitarias
+## Reporte de Pruebas Unitarias
+
+### 1. UsuarioManagerTest
+
+#### Test Agregar Usuario
+- **Descripción:** Verifica la funcionalidad de agregar un usuario al `UsuarioManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Actualizar Usuario
+- **Descripción:** Verifica la funcionalidad de actualizar los datos de un usuario existente.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Eliminar Usuario
+- **Descripción:** Verifica la funcionalidad de eliminar un usuario del `UsuarioManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+### 2. SalaManagerTest
+
+#### Test Agregar Sala
+- **Descripción:** Verifica la funcionalidad de agregar una sala al `SalaManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Actualizar Sala
+- **Descripción:** Verifica la funcionalidad de actualizar los datos de una sala existente.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Eliminar Sala
+- **Descripción:** Verifica la funcionalidad de eliminar una sala del `SalaManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Agregar Sala Duplicada
+- **Descripción:** Verifica que no se pueda agregar una sala con un código duplicado.
+- **Resultado:** La prueba falló porque no se lanzó la excepción `IllegalArgumentException` esperada.
+
+### 3. ReservaManagerTest
+
+#### Test Agregar Reserva
+- **Descripción:** Verifica la funcionalidad de agregar una reserva al `ReservaManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Actualizar Reserva
+- **Descripción:** Verifica la funcionalidad de actualizar los datos de una reserva existente.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Eliminar Reserva
+- **Descripción:** Verifica la funcionalidad de eliminar una reserva del `ReservaManager`.
+- **Resultado:** La prueba pasó satisfactoriamente.
+
+#### Test Reserva Sobreposición Usuario
+- **Descripción:** Verifica que no se pueda agregar una reserva que se superponga con otra existente para el mismo usuario.
+- **Resultado:** La prueba falló porque no se lanzó la excepción `IllegalArgumentException` esperada.
+
+### Conclusiones
+- **Total de Pruebas:** 13 pruebas ejecutadas.
+- **Éxito:** 11 pruebas pasaron satisfactoriamente.
+- **Fallas:** 2 pruebas fallaron debido a que no se lanzaron las excepciones esperadas.
+
+
